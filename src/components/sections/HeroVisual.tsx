@@ -170,7 +170,7 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
                 transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                 className="text-[clamp(3rem,11vw,13rem)] font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4"
               >
-                AI & DATA
+                AI & UAV
               </motion.h1>
             </div>
           </div>
@@ -202,14 +202,14 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
                 transition={{ duration: 1.2, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
                 className="text-[clamp(3rem,11vw,13rem)] md:flex items-center font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4"
               >
-                <span className="">SOFT</span>
+                <span className="">SYS</span>
                 <div ref={zapRef} className="hidden lg:block mx-[0.05em]">
                   <Zap className="w-[0.8em] h-[0.8em] text-sky-400" strokeWidth={1.5} />
                 </div>
                 <div ref={zapSmallRef} className="block lg:hidden mx-[0.02em]">
                   <Zap className="w-[0.8em] h-[0.8em] text-sky-400" strokeWidth={2} />
                 </div>
-                <span className="">WARE</span>
+                <span className="">TEMS</span>
               </motion.h1>
             </div>
           </div>
